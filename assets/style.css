@@ -30,6 +30,7 @@
 
 body {
     font-family: 'roboto';
+    color: white;
 }
 
 img{
@@ -88,5 +89,35 @@ img{
 .card1{
 background-color:#04234E;
 height: 350px;
+padding: 1rem;
+display:flex;
 }
+
+.card1 .aligne-gauche div{
+    color:#FFFFFF;
+    margin-left: 20px;
+    padding: 25px 0px;
+    
+
+}
+
+.card1 h2 {
+    border-bottom: 2px solid #EE88E4;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight:normal;
+}
+
+.aligne-gauche{
+
+        width: 50%;
+}
+
+.aligne-gauche p{
+    font-size: 13px;
+}
+
+
+
 
