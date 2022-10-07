@@ -32,6 +32,10 @@ body {
     font-family: 'roboto';
 }
 
+img{
+    max-width: 100%;
+}
+
 :root {
     --primary-color: #109DEA;
     --secondary-color: #04234E;
@@ -41,24 +45,37 @@ body {
 
 /* ----------- CODE BELOW -----------  */
 .card{
-    border: 10px solid #109DEA;
-    padding: 15px 5px;
     background-color: #109DEA;
     display: flex;
-    
-    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card nav {
+    height: 70px;
+    display: flex;
 }
 
 .card .titre{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold ;
+    margin-left: 20px;  
 }
 
 
-.card2 a {
+.card a {
     color: white;
     text-decoration: none;
+    font-size: 21px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
 }
+
+.card a:hover{
+    background-color:#EE88E4;
+}
+
 
 
